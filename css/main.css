@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: ;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 50, 0.5),rgba(0, 0, 50, 0.5)),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm6TPEgmMfsT1Zt8TazM0RdIOJhh-aJGovV1E_uq8gbw-K6RAK);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+.contact-title {
+  margin-top: 100px;
+  color: #111;
+}
+
+form {
+  margin-top: 50px;
+}
+
+.form-control {
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  color: #111;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+input {
+  height: 45px;
+}
+
+form .submit {
+  background: #ddd;
+  border-color: transparent;
+  color: #111;
+  font-weight: bold;
+  font-size: 20px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+::placeholder {
+  color: #333 !important;
+}
